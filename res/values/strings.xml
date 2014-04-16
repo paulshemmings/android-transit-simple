@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Activity!</string>
+    <string name="app_name">Transit</string>
+    
+    <string name="resized_image_height">400</string>
+    <string name="marker_image_height">100</string>
+    <string name="maximum_map_zoom">10</string>
+    
+    <string name="menu_satelite">Satelite</string>
+    <string name="menu_normal">Normal</string>
+    <string name="menu_hybrid">Hybrid</string>
+
+    <string name="loading">loading</string>
+    <string name="placeholder"></string>
+
+    <string name="service_url">http://vast-ridge-9517.herokuapp.com/services/transit-public/</string>
+
+    <string name="request_agency_list">getAgencies</string>
+    <string name="request_route_list">getRoutesForAgency</string>
+    <string name="request_stop_list">getStopsForRoute</string>
+    
+</resources>

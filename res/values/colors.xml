@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="global_text">#333333</color>
+    <color name="connect_brand">#F88804</color>
+    <color name="background_color">#cccccc</color>
+    <color name="button_text">#333333</color>
+    <color name="background_grey">#eeeeee</color>
+    <color name="background_light">#fff3f3f3</color>
+    <color name="bright_foreground_grey">#000000</color>
+    <color name="bright_foreground_light">#eeffee</color>
+    <color name="bright_foreground_disabled_grey">#eeeeee</color>
+    <color name="bright_foreground_disabled_light">#ffb2b2b2</color>
+    <color name="bright_foreground_inverse_grey">#eeeeee</color>
+    <color name="bright_foreground_inverse_light">#aabbcc</color>
+</resources>

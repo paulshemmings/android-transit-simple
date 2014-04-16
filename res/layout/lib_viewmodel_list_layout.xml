@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/lib_default_selector"
+        >
+
+    <ListView
+            android:id="@+id/viewmodel_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:choiceMode="singleChoice"
+            android:fadingEdge="vertical"
+            android:dividerHeight="2dp"
+            android:divider="@drawable/lib_divider_white"
+            >
+    </ListView>
+
+    <TextView
+            android:id="@+id/no_results"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="No Results"
+            android:visibility="gone"
+            />
+
+</RelativeLayout>
