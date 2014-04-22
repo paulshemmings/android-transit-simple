@@ -20,5 +20,6 @@
     <string name="request_agency_list">getAgencies</string>
     <string name="request_route_list">getRoutesForAgency</string>
     <string name="request_stop_list">getStopsForRoute</string>
+    <string name="request_arrival_times_list">getNextDeparturesByStopCode</string>
     
 </resources>

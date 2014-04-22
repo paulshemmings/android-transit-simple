@@ -11,6 +11,7 @@ import com.razor.transit.comms.IRequestHandler;
 import com.razor.transit.comms.IResponse;
 import com.razor.transit.comms.adapters.ContextResourceMapper;
 import com.razor.transit.comms.builders.AgencyListReplyBuilder;
+import com.razor.transit.comms.builders.ArrivalTimeListReplyBuilder;
 import com.razor.transit.comms.builders.ProviderBuilder;
 import com.razor.transit.comms.builders.RouteListReplyBuilder;
 import com.razor.transit.comms.builders.StopListReplyBuilder;
@@ -56,6 +57,9 @@ public class TransitRequestHandler implements IRequestHandler {
         }
         if (messageType == R.string.request_stop_list) {
             return new StopListReplyBuilder();
+        }
+        if (messageType == R.string.request_arrival_times_list) {
+            return new ArrivalTimeListReplyBuilder();
         }
         return null;
     }
