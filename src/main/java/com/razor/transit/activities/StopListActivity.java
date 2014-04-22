@@ -1,5 +1,6 @@
 package com.razor.transit.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -66,7 +67,13 @@ public class StopListActivity extends       BaseActivity
     @Override
     public void onStopListItemSelected(final StopViewModel viewModel)
     {
-        // todo: show times
+        Intent showArrivalTimesIntent
+                = new Intent(this, ArrivalTimeListActivity.class);
+
+        showArrivalTimesIntent
+                .putExtra(ArrivalTimeListActivity.ARRIVAL_TIME_LIST_STOP_MODEL_INTENT_VALUE, viewModel);
+
+        this.startActivity(showArrivalTimesIntent);
     }
 
     @Override
