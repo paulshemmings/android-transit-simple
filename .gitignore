@@ -19,5 +19,8 @@ local.properties
 .classpath
 .project
 
+# Intellij files
+.idea/
+
 # mac files
 .DS_Store

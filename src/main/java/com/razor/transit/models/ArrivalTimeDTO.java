@@ -10,7 +10,9 @@ package com.razor.transit.models;
 
 import com.google.gson.annotations.SerializedName;
 
-public class ArrivalTimeDTO
+import java.io.Serializable;
+
+public class ArrivalTimeDTO implements Serializable
 {
     @SerializedName("routeName")
     public String routeName;

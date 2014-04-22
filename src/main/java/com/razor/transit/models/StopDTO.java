@@ -2,9 +2,11 @@ package com.razor.transit.models;
 
 import com.google.gson.annotations.SerializedName;
 
-public class StopDTO
+import java.io.Serializable;
+
+public class StopDTO implements Serializable
 {
-    public static class StopDtoLocation {
+    public static class StopDtoLocation implements Serializable {
         public double d;
         public double e;
     }
