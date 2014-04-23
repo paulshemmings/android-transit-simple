@@ -25,7 +25,7 @@ public class StopViewModel extends ModelContainer<StopDTO> implements IViewModel
     public String getDetails()
     {
         return String.format("%d %d",
-                this.getModel().getLocation().d,
-                this.getModel().getLocation().e);
+                this.getModel().getLocation().getLatitude(),
+                this.getModel().getLocation().getLongitude());
     }
 }

@@ -21,5 +21,7 @@
     <string name="request_route_list">getRoutesForAgency</string>
     <string name="request_stop_list">getStopsForRoute</string>
     <string name="request_arrival_times_list">getNextDeparturesByStopCode</string>
+
+    <string name="maximum_map_zoom">20</string>
     
 </resources>

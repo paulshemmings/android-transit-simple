@@ -7,8 +7,20 @@ import java.io.Serializable;
 public class StopDTO implements Serializable
 {
     public static class StopDtoLocation implements Serializable {
-        public double d;
-        public double e;
+
+        @SerializedName("d")
+        private double d;
+
+        @SerializedName("e")
+        private double e;
+
+        public double getLatitude() {
+            return this.d;
+        }
+
+        public double getLongitude() {
+            return this.e;
+        }
     }
 
     @SerializedName("name")

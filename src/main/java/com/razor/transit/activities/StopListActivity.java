@@ -47,9 +47,7 @@ public class StopListActivity extends       BaseActivity
 
         // build handler
 
-        TransitProviderOld provider = new TransitProviderOld();
-        provider.setMessageResourceMapper(new ContextResourceMapper());
-        this.stopsHandler = new StopsHandler(this);
+        this.stopsHandler = new StopsHandler();
         this.stopsHandler.setRequestHandler(new TransitRequestHandler());
 
         // populate based on intent

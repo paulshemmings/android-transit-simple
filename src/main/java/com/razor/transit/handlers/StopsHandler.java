@@ -51,15 +51,6 @@ public class StopsHandler extends BaseHandler implements IReplyHandler
     protected OnStopsLoadListener stopsLoadListener;
 
     /**
-     * Constructor
-     * @param parentContext
-     */
-
-    public StopsHandler(final Context parentContext) {
-        // super(parentContext);
-    }
-
-    /**
      * List Events
      * @param listener
      * @param request
